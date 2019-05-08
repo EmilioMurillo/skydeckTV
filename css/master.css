@@ -1,0 +1,40 @@
+header, footer {
+  clear: both;
+  /*border: 1px solid blue;*/
+}
+section {
+  float: left;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+header h1 {
+  display: block;
+  width: 20%;
+  margin: 0;
+  float: left;
+}
+header nav {
+  width: 60%;
+  /*text-align: center;*/
+  padding: 1%;
+}
+header nav li {
+  display: inline-block;
+  font-size: 20px;
+}
+section.mediaRow section.filmContainer iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 1%;
+}
+section.mediaRow section.filmInfo {
+  width: 100%;
+  text-align: left;
+}
+section.mediaRow section.filmInfo div.infoWrapper{
+  width: 55%;
+  margin: 0 auto;
+}
+section.mediaRow section.filmInfo p {
+  padding: 1%;
+}
