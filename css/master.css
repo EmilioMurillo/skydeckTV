@@ -22,10 +22,14 @@ header nav li {
   display: inline-block;
   font-size: 20px;
 }
+section.mediaRow section.filmContainer{
+}
 section.mediaRow section.filmContainer iframe {
   display: block;
   margin: 0 auto;
   padding: 1%;
+  width: 750px;
+  height: 450px;
 }
 section.mediaRow section.filmInfo {
   width: 100%;
@@ -37,4 +41,23 @@ section.mediaRow section.filmInfo div.infoWrapper{
 }
 section.mediaRow section.filmInfo p {
   padding: 1%;
+}
+/* ---------------------------MEDIA QUERYS --------------------------*/
+@media only screen and (max-width: 499px) {
+  section.mediaRow section.filmContainer iframe {
+    width: 400px;
+    height: 400px;
+  }
+  section.mediaRow section.filmInfo div.infoWrapper{
+    width: 100%;
+  }
+}
+@media (min-width:500px) and (max-width:800px)  {
+  section.mediaRow section.filmContainer iframe {
+    width: 500px;
+    height: 400px;
+  }
+  section.mediaRow section.filmInfo div.infoWrapper{
+    width: 100%;
+  }
 }
