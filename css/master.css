@@ -66,12 +66,6 @@ section.mediaRow section.filmInfo p {
     width: 400px;
     height: 400px;
   }
-  .filmContainer {
-    display: none;
-  }
-  .skydeckBanner{
-    display: none;
-  }
 
   section.mediaRow section.filmInfo div.infoWrapper{
     width: 100%;
