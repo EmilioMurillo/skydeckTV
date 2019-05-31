@@ -94,11 +94,13 @@ section.mediaRow section.filmInfo p {
     font-size: 85px;
     color: yellow;
     font-family: sans-serif;
+    text-align: left;
   }
   section.mediaRow section.filmInfo h3 {
-    margin-top: 90%;
+    margin-top: 100%;
     font-size: 50px;
     color: white;
+    text-align: left;
   }
 }
 @media (min-width:501px) and (max-width:800px)  {
