@@ -47,6 +47,22 @@ header h1 {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+.filmInfo h2, h3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.filmInfo h2 {
+  margin-top: 20%;
+  font-size: 85px;
+  color: yellow;
+  font-family: sans-serif;
+}
+.filmInfo h3 {
+  margin-top: 27%;
+  font-size: 50px;
+  color: white;
+}
 /* ----------VIDEO BANNER END-----------------*/
 
 section.mediaRow section.filmInfo {
